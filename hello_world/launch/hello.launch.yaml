@@ -1,0 +1,13 @@
+launch:
+
+- node:
+
+    pkg: "hello_world"
+
+    exec: "hello_param_node"
+
+    name: "hello_param"
+
+    freq: 0.5
+
+    text: 'Hello ROS2 !!'

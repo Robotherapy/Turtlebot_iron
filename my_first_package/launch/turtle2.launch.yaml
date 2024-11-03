@@ -1,0 +1,29 @@
+launch:
+
+- node:
+
+    pkg: "turtlesim"
+
+    exec: "turtlesim_node"
+
+    name: "sim"
+
+
+- node:
+
+    pkg: "turtlesim"
+
+    exec: "draw_square"
+
+    name: "draw"
+
+
+- node:
+
+    pkg: "turtlesim"
+
+    exec: "turtlesim_node"
+
+    name: "new_sim"
+
+    namespace: "my_turtle"

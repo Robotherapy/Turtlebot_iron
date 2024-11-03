@@ -1,0 +1,19 @@
+launch:
+
+
+- include:
+
+    file: "$(find-pkg-share my_first_package)/launch/turtle.launch.yaml"
+
+
+- include:
+
+    file: "$(find-pkg-share my_first_package)/launch/turtle2.launch.yaml"
+
+- node:
+
+    pkg: "my_first_package"
+
+    exec: "emptynode"
+
+    name: "emptynode"

@@ -1,0 +1,18 @@
+launch:
+
+- node:
+    pkg: "apriltag_ros"
+    exec: "apriltag_node"
+    name: "apriltag_node"
+    param:
+    -
+      name: "image_transport"
+      value: "raw" # or compressed
+    -
+      name: "family"
+      value: "Standard41h12" # tag family 16h5, 25h9, 36h11,
+      # Circle21h7, Circle49h12, Custom48h12, Standard41h12,
+      # Standard52h13
+    -
+      name: "size"
+      value: 0.11 # tag edge size in m

@@ -1,0 +1,6 @@
+launch:
+
+- node:
+    pkg: "referee_pkg"
+    exec: "referee_node"
+    name: "referee_node"
